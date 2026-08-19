@@ -325,6 +325,11 @@ const spells = {
     name: 'Abundance',
     icon: 'ability_druid_empoweredrejuvination',
   },
+  FORESTWALK_BUFF: {
+    id: 400126,
+    name: 'Forestwalk',
+    icon: 'spell_lifegivingspeed',
+  },
   NATURES_CURE: {
     id: 88423,
     name: "Nature's Cure",
@@ -510,6 +515,13 @@ const spells = {
   EVERBLOOM_SPLASH_HEAL: {
     id: 1244341,
     name: 'Everbloom',
+    icon: 'ability_druid_focusedgrowth',
+  },
+  // 10% of self-healing to bonded ally / 8% of bonded-ally healing back to self.
+  // Copies the source heal amount (does not independently apply dest mastery).
+  SYMBIOTIC_RELATIONSHIP_HEAL: {
+    id: 474760,
+    name: 'Symbiotic Relationship',
     icon: 'ability_druid_focusedgrowth',
   },
   RESTO_DRUID_TIER_36_GENESIS_BUFF: {
@@ -1305,6 +1317,16 @@ const spells = {
     id: 439902,
     name: 'Flower Walk',
     icon: 'inv_misc_trailofflowers',
+  },
+  LETHAL_PRESERVATION_SELF_HEAL: {
+    id: 455470,
+    name: 'Lethal Preservation',
+    icon: 'spell_nature_healingtouch',
+  },
+  LETHAL_PRESERVATION_OTHER_HEAL: {
+    id: 455474,
+    name: 'Lethal Preservation',
+    icon: 'spell_nature_healingtouch',
   },
   ROOT_NETWORK_BUFF: {
     id: 439888,

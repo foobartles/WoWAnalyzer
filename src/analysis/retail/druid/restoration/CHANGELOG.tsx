@@ -6,6 +6,31 @@ import { TALENTS_DRUID } from 'common/TALENTS';
 
 export default [
   change(
+    date(2026, 8, 18),
+    <>
+      Updated Restoration Druid for 12.1. Added statistics for remaining spec and hero talents, a
+      combined hero talent healing breakdown, and Season 2 tier set tracking.
+    </>,
+    squided,
+  ),
+  change(
+    date(2026, 8, 18),
+    <>
+      Reworked the guide for the 12.1 playstyle, including an Advanced toggle for extra cast
+      analysis.
+    </>,
+    squided,
+  ),
+  change(
+    date(2026, 8, 18),
+    <>
+      Count <SpellLink spell={TALENTS_DRUID.EVERBLOOM_2_RESTORATION_TALENT} /> splash and{' '}
+      <SpellLink spell={TALENTS_DRUID.SYMBIOTIC_RELATIONSHIP_TALENT} /> copies in Mastery: Harmony
+      using the source heal's HoTs instead of treating them as non-mastery healing.
+    </>,
+    squided,
+  ),
+  change(
     date(2026, 8, 19),
     <>
       Improve the HoT graph: ignore pets and duplicate applies, and include{' '}
