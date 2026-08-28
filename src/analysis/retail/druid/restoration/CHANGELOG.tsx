@@ -6,6 +6,17 @@ import { TALENTS_DRUID } from 'common/TALENTS';
 
 export default [
   change(
+    date(2026, 8, 27),
+    <>
+      Update for the 12.1 balance pass: Season 2 4pc increases{' '}
+      <SpellLink spell={SPELLS.RESTO_DRUID_TIER_36_GENESIS_BUFF} /> duration by 8 sec (was 4),{' '}
+      <SpellLink spell={TALENTS_DRUID.NATURES_BOUNTY_TALENT} /> replicates 10% of Regrowth (was 20%),
+      and <SpellLink spell={TALENTS_DRUID.EVERBLOOM_2_RESTORATION_TALENT} /> splash hits 5 targets
+      (was 6).
+    </>,
+    squided,
+  ),
+  change(
     date(2026, 8, 18),
     <>
       Updated Restoration Druid for 12.1. Added statistics for remaining spec and hero talents, a

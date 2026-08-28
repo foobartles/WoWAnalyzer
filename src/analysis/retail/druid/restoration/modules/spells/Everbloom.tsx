@@ -22,7 +22,7 @@ import Verdancy from './Verdancy';
  * Spec Apex Talent
  *
  * Rank 1: Lifebloom stacks every 5 sec, stacking up to 3 times.
- * Rank 2: 20% of Lifebloom's final bloom heals up to 6 injured allies within 40 yds.
+ * Rank 2: 48% of Lifebloom's final bloom heals up to 5 injured allies within 40 yds.
  * Rank 3: Lifebloom bursts into a Blooming Frenzy when you cast Swiftmend, causing it to bloom 3 times in rapid succession.
  */
 class Everbloom extends Analyzer {

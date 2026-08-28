@@ -88,6 +88,7 @@ const EVENT_LINKS: EventLink[] = [
   },
   {
     // Nature's Bounty: Regrowth's direct heal also heals other allies who have Regrowth
+    // for 10% of that heal.
     linkRelation: CAUSED_NATURES_BOUNTY,
     linkingEventId: SPELLS.REGROWTH.id,
     linkingEventType: EventType.Cast,
